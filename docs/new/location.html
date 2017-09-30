@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Edu Learn - Education Theme</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bx-Slider StyleSheet CSS -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet"> 
+    <!-- Font Awesome StyleSheet CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/svg-style.css" rel="stylesheet">
+    <!-- Pretty Photo CSS -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+	<!-- DL Menu CSS -->
+	<link href="js/dl-menu/component.css" rel="stylesheet">
+    <!-- Widget CSS -->
+    <link href="css/widget.css" rel="stylesheet">
+    <!-- Typography CSS -->
+    <link href="css/typography.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="css/chosen.min.css" rel="stylesheet">
+    <!-- Shortcodes CSS -->
+    <link href="css/shortcodes.css" rel="stylesheet">
+	<!-- Custom Main StyleSheet CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Color CSS -->
+    <link href="css/color.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+       <style type="text/css">
+        .info {
+            border: solid 1px silver;
+        }
+        div.info-top {
+            position: relative;
+            background: none repeat scroll 0 0 #F9F9F9;
+            border-bottom: 1px solid #CCC;
+            border-radius: 5px 5px 0 0;
+        }
+        div.info-top div {
+            display: inline-block;
+            color: #333333;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 31px;
+            padding: 0 10px;
+        }
+        div.info-top img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            transition-duration: 0.25s;
+        }
+        div.info-top img:hover {
+            box-shadow: 0px 0px 5px #000;
+        }
+        div.info-middle {
+            font-size: 12px;
+            padding: 6px;
+            line-height: 20px;
+        }
+        div.info-bottom {
+            height: 0px;
+            width: 100%;
+            clear: both;
+            text-align: center;
+        }
+        div.info-bottom img {
+            position: relative;
+            z-index: 104;
+        }
+        span {
+            margin-left: 5px;
+            font-size: 11px;
+        }
+        .info-middle img {
+            float: left;
+            margin-right: 6px;
+        }
+    </style>
+    <script type="text/javascript" src = 'http://webapi.amap.com/maps?v=1.4.0&key=7ca010b0af541bc59c895147c651b5a6'></script>
+     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+
+  </head>
+
+  <body>
+
+<!--Wrapper Start-->  
+<div class="ct_wrapper">
+	
+    <!--Header Wrap Start-->
+    <header>
+    	<!--Top Strip Wrap Start-->
+        <div class="top_strip">
+        	<div class="container">
+                <div class="top_location_wrap">
+                    <p><i class="fa fa-map-marker"></i>新西兰</p>
+                </div>
+                <div class="top_ui_element">
+                    <ul>
+                        <li><i class="fa fa-envelope"></i><a href="#">yiyashanzhuang@163.com</a></li>
+                        <li><i class="fa fa-phone"></i>123 - 456 - 7890</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Top Strip Wrap End-->
+        
+        <!--Navigation Wrap Start-->
+         <div class="logo_nav_outer_wrap">
+        	<div class="container">
+                <div class="logo_wrap">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="top_cart_wrap">
+                	<i class="fa fa-cart-arrow-down"></i>
+                </div>
+                <div class="top_search_wrap">
+                	<i class="fa fa-search search-fld"></i>
+                    <div class="search-wrapper-area">
+                        <form class="search-area">
+                            <input type="text" placeholder="search here"/>
+                            <input type="submit" value="Go"/>
+                        </form>
+                    </div>
+                </div>
+               <nav class="main_navigation">
+                    <ul>
+                        <li><a href="index.html">首页<span>Home</span></a></li>
+                        <li><a href="accommodation.html">住宿<span>Accommodation</span></a>
+                            <ul>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                                <li><a href="accommodation-detail.html">单人房</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="Event.html">活动<span>Event</span></a>
+                            <ul>
+                                <li><a href="Meeting.html">会议</a></li>
+                                <li><a href="blog-simple.html">婚礼</a></li>
+                                <li><a href="function.html">功能</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog-food.html">餐厅<span>Restaurant</span></a></li>
+                        <li><a href="course-listing.html">体验<span>Event</span></a>
+                            <ul>
+                                <li><a href="course-listing.html">观星</a></li>
+                                <li><a href="course-listing.html">垂钓</a></li>
+                                <li><a href="course-listing.html">射击</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="location.html">位置<span>Location</span></a></li>
+                        <li><a href="contact-us.html">联系我们<span>Contact us</span></a></li>
+                        <li><a href="#">现在预订<span>Book now</span></a></li>
+                    </ul>
+                </nav>
+                <!--DL Menu Start-->
+                <div id="kode-responsive-navigation" class="dl-menuwrapper">
+                    <button class="dl-trigger">Open Menu</button>
+                    <ul class="dl-menu">
+                        <li class="active"><a href="index.html">首页</a></li>
+                        <li><a href="about-us.html">联系我们</a></li>
+                        <li class="menu-item kode-parent-menu"><a href="#">住宿</a>
+                            <ul class="dl-submenu">
+                                <li><a href="course-listing.html">单人房</a></li>
+                                <li><a href="course-detail.html">双人房</a></li>
+                                <li><a href="course-listing.html">单人房</a></li>
+                                <li><a href="course-detail.html">双人房</a></li>
+                                <li><a href="course-listing.html">单人房</a></li>
+                                <li><a href="course-detail.html">双人房</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="menu-item kode-parent-menu"><a href="Event.html">活动</a>
+                            <ul class="dl-submenu">
+                                <li><a href="Meeting.html">会议</a></li>
+                                <li><a href="blog-simple.html">婚礼</a></li>
+                                <li><a href="function.html">功能</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item kode-parent-menu"><a href="blog-food.html">餐厅</a></li>
+                        <li class="menu-item kode-parent-menu"><a href="course-listing">体验</a>
+                            <ul class="dl-submenu">
+                                <li><a href="course-listing.html">观星</a></li>
+                                <li><a href="course-listing.html">垂钓</a></li>
+                                <li><a href="course-listing.html">射击</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item kode-parent-menu"><a href="location.html">位置</a></li>
+                        <li><a href="contact-us.html">联系我们</a></li>
+                        <li><a href="contact-us.html">现在预定</a></li>
+                    </ul>
+                </div>
+                <!--DL Menu END-->
+            </div>
+        </div>
+        <!--Navigation Wrap End-->
+    </header>
+    <!--Header Wrap End-->
+    
+    <!--Banner Wrap Start-->
+    <section class="sub_banner_wrap">
+    	<div class="container">
+            <div id="mapDiv" style="width: 100%;height: 500px;">
+                
+            </div>
+        	
+            <script type="text/javascript">
+                  //地图初始化时，在地图上添加一个marker标记,鼠标点击marker可弹出自定义的信息窗体
+                var map = new AMap.Map("mapDiv", {
+                    resizeEnable: true,
+                    center: [126.497215, 45.801645],
+                    zoom: 16
+                });    
+                addMarker();
+                //添加marker标记
+                function addMarker() {
+                    map.clearMap();
+                    var marker = new AMap.Marker({
+                        map: map,
+                        position: [126.497215, 45.801645]
+                    });
+                    //鼠标点击marker弹出自定义的信息窗体
+                    AMap.event.addListener(marker, 'click', function() {
+                        infoWindow.open(map, marker.getPosition());
+                    });
+                }
+
+                //实例化信息窗体
+                var title = '倚崖山庄酒店',
+                    content = [];
+                content.push("地址：黑龙江省哈尔滨市松北区");
+                content.push("电话：010-0000000");
+                var infoWindow = new AMap.InfoWindow({
+                    isCustom: true,  //使用自定义窗体
+                    content: createInfoWindow(title, content.join("<br/>")),
+                    offset: new AMap.Pixel(16, -45)
+                });
+
+                //构建自定义信息窗体
+                function createInfoWindow(title, content) {
+                    var info = document.createElement("div");
+                    info.className = "info";
+
+                    //可以通过下面的方式修改自定义窗体的宽高
+                    //info.style.width = "400px";
+                    // 定义顶部标题
+                    var top = document.createElement("div");
+                    var titleD = document.createElement("div");
+                    var closeX = document.createElement("img");
+                    top.className = "info-top";
+                    titleD.innerHTML = title;
+                    closeX.src = "http://webapi.amap.com/images/close2.gif";
+                    closeX.onclick = closeInfoWindow;
+
+                    top.appendChild(titleD);
+                    top.appendChild(closeX);
+                    info.appendChild(top);
+
+                    // 定义中部内容
+                    var middle = document.createElement("div");
+                    middle.className = "info-middle";
+                    middle.style.backgroundColor = 'white';
+                    middle.innerHTML = content;
+                    info.appendChild(middle);
+
+                    // 定义底部内容
+                    var bottom = document.createElement("div");
+                    bottom.className = "info-bottom";
+                    bottom.style.position = 'relative';
+                    bottom.style.top = '0px';
+                    bottom.style.margin = '0 auto';
+                    var sharp = document.createElement("img");
+                    sharp.src = "http://webapi.amap.com/images/sharp.png";
+                    bottom.appendChild(sharp);
+                    info.appendChild(bottom);
+                    return info;
+                }
+
+                //关闭信息窗体
+                function closeInfoWindow() {
+                    map.clearInfoWindow();
+                }
+                var contextMenu = new AMap.ContextMenu();  //创建右键菜单
+                //右键放大
+                contextMenu.addItem("放大一级", function() {
+                    map.zoomIn();
+                }, 0);
+                //右键缩小
+                contextMenu.addItem("缩小一级", function() {
+                    map.zoomOut();
+                }, 1);
+                //右键显示全国范围
+                contextMenu.addItem("缩放至全国范围", function(e) {
+                    map.setZoomAndCenter(4, [108.946609, 34.262324]);
+                }, 2);
+                //右键添加Marker标记
+                contextMenu.addItem("添加标记", function(e) {
+                    var marker = new AMap.Marker({
+                        map: map,
+                        position: contextMenuPositon //基点位置
+                    });
+                }, 3);
+
+                //地图绑定鼠标右击事件——弹出右键菜单
+                map.on('rightclick', function(e) {
+                    contextMenu.open(map, e.lnglat);
+                    contextMenuPositon = e.lnglat;
+                });
+            </script>
+        </div>
+    </section>
+    <!--Banner Wrap End-->
+   
+<footer>
+        <!--NewsLetter Wrap Start-->
+        <div class="ct_newsletter_wrap">
+            <div class="container">
+                <div class="newletter_des">
+                    <h5>现在就来预定吧</h5>
+                    <form>
+                        <label class="fa fa-envelope-o"></label>
+                        <input type="text" placeholder="发送邮箱">
+                        <button>预定</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--NewsLetter Wrap End-->
+        
+        <!--Footer Col Wrap Start-->
+        <div class="ct_footer_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer_col_1 widget">
+                            <a href="#"><img src="images/footer-logo.png" alt=""></a>
+                            <p>酒店寄语</p>
+                            <span>Email : yiyashanzhuang@163.com</span>
+                            <div class="foo_get_qoute">
+                                <a href="#">联系我们哦</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="foo_col_2 widget">
+                            <h5>客房</h5>
+                            <ul>
+                                <li><a href="#">单人房</a></li>
+                                <li><a href="#">双人房</a></li>
+                                <li><a href="#">多人房</a></li>
+                                <li><a href="#">休闲房</a></li>
+                                <li><a href="#">总统套房</a></li>
+                                <li><a href="#">观景房</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-3 col-sm-6">
+                        <div class="foo_col_2 widget">
+                            <h5>餐饮</h5>
+                            <ul>
+                                <li><a href="#">早餐</a></li>
+                                <li><a href="#">午餐</a></li>
+                                <li><a href="#">晚餐</a></li>
+                                <li><a href="#">小食</a></li>
+                                <li><a href="#">厨师推荐</a></li>
+                                <li><a href="#">BAR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6">
+                        <div class="foo_col_4 widget">
+                            <h5>联系我们</h5>
+                            <ul>
+                                <li>新西兰，倚崖山庄</li>
+                                <li>地址所在：新西兰</li>
+                                <li></li>
+                                <li>预定电话：123-456-7890</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--Footer Col Wrap End-->
+        
+        <!--Footer Copyright Wrap Start-->
+        <div class="ct_copyright_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright_text">
+                            中软睿达企业出品 <a class="fa fa-heart" href="#"></a> 项目组 <a href="#">独立开发</a>版权所有
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright_social_icon">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Copyright Wrap End-->
+        <div class="back_to_top">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+    </footer>
+        
+</div>
+<!--Wrapper End-->
+
+
+
+    <!--Bootstrap core JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Bx-Slider JavaScript-->
+	<script src="js/jquery.bxslider.min.js"></script>
+    <!--Owl Carousel JavaScript-->
+	<script src="js/owl.carousel.js"></script>
+	<!--Dl Menu Script-->
+	<script src="js/dl-menu/modernizr.custom.js"></script>
+	<script src="js/dl-menu/jquery.dlmenu.js"></script>
+    <!--Time Counter Javascript-->
+    <script src="js/jquery.downCount.js"></script>
+    <!--Pretty Photo Javascript-->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--Way Points Javascript-->
+    <script src="js/waypoints-min.js"></script>
+    <!--Accordian Javascript-->
+    <script src="js/jquery.accordion.js"></script>
+    <!--Accordian Javascript-->
+    <script src="js/chosen.jquery.min.js"></script>
+    <!--Custom JavaScript-->
+	<script src="js/custom.js"></script>
+
+  </body>
+</html>
